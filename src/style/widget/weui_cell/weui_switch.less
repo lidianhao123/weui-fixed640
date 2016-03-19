@@ -1,5 +1,5 @@
 @import "../../base/fn";
-@weuiSwitchHeight: 32px;
+@weuiSwitchHeight: 64px;
 .weui_cell_switch{
     padding-top: (@weuiCellHeight - @weuiSwitchHeight) / 2;
     padding-bottom: (@weuiCellHeight - @weuiSwitchHeight) / 2;
@@ -7,11 +7,11 @@
 .weui_switch{
     appearance: none;
     position: relative;
-    width: 52px;
+    width: 104px;
     height: @weuiSwitchHeight;
-    border: 1px solid #DFDFDF;
+    border: 2px solid #DFDFDF;
     outline: 0;
-    border-radius: 16px;
+    border-radius: 32px;
     box-sizing: border-box;
     background: #DFDFDF;
     &:before{
@@ -19,9 +19,9 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 50px;
-        height: @weuiSwitchHeight - 2;
-        border-radius: 15px;
+        width: 100px;
+        height: @weuiSwitchHeight - 4;
+        border-radius: 30px;
         background-color: #FDFDFD;
         transition:transform .3s;
     }
@@ -30,11 +30,11 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: @weuiSwitchHeight - 2;
-        height: @weuiSwitchHeight - 2;
-        border-radius: 15px;
+        width: @weuiSwitchHeight - 4;
+        height: @weuiSwitchHeight - 4;
+        border-radius: 30px;
         background-color: #FFFFFF;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
         transition:transform .3s;
     }
 
@@ -45,7 +45,7 @@
             transform: scale(0);
         }
         &:after{
-            transform: translateX(20px);
+            transform: translateX(40px);
         }
     }
 }

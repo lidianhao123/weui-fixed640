@@ -5,7 +5,7 @@
 
 .weui_panel {
     background-color: #FFFFFF;
-    margin-top: 10px;
+    margin-top: 20px;
     &:first-child {
         margin-top: 0;
     }
@@ -21,24 +21,24 @@
 }
 
 .weui_panel_hd {
-    padding: 14px 15px 10px;
+    padding: 28px 30px 20px;
     color: @grayColor;
-    font-size: 13px;
+    font-size: 26px;
     position: relative;
     &:after {
         .setBottomLine(@lineColor);
-        left: 15px;
+        left: 30px;
     }
 }
 
 .weui_panel_ft {
-    padding: 10px 15px 12px;
+    padding: 20px 30px 24px;
     color: @grayColor;
-    font-size: 14px;
+    font-size: 28px;
     position: relative;
     &:before {
         .setTopLine(@lineColor);
-        left: 15px;
+        left: 30px;
     }
     .weui_panel_access & {
         display: block;
@@ -49,11 +49,11 @@
         }
         &:after {
             content: " ";
-            .setArrow_Wap(right, 6px, #C7C7CC, 2px);
+            .setArrow_Wap(right, 12px, #C7C7CC, 4px);
             position: absolute;
-            right: 15px;
+            right: 30px;
             top: 50%;
-            margin-top: -4px;
+            margin-top: -8px;
         }
     }
 }
