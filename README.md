@@ -1,10 +1,16 @@
-WeUI 为微信 Web 服务量身设计  ![](https://travis-ci.org/weui/weui.svg?branch=master)
+WeUI-fixed640 基于[WeUI](https://github.com/weui/weui)修改的，适用于将屏幕的宽度设定为固定640px值的适配方案。
+```html
+<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">
+``` 
 ====
 
 ## 概述
 
 WeUI是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信 Web 开发量身设计，可以令用户的使用感知更加统一。包含`button`、`cell`、`dialog`、 `progress`、 `toast`、`article`、`actionsheet`、`icon`等各式元素。
 
+## 视觉标准
+
+[WeUI-Sketch](https://github.com/weui/weui-sketch)
 ## 使用
 
 #### 方法一：
@@ -54,10 +60,10 @@ npm start
 
 ![](./dist/example/snapshot/qrcode.png)
 
-[http://weui.github.io/weui/](http://weui.github.io/weui)
+[http://lidianhao123.github.io/weui-fixed640/](http://lidianhao123.github.io/weui-fixed640/)
 
 
-## 第三方扩展
+## 其他第三方扩展
 
 - [lihongxun945/jquery-weui](http://lihongxun945.github.io/jquery-weui/components)
 - [kevyu/weui-sass](https://github.com/kevyu/weui-sass)
